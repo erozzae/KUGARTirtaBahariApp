@@ -1,6 +1,6 @@
 import { Box, Heading, Text, Image, HStack, Wrap, WrapItem } from '@chakra-ui/react'
 import main from '../assets/css/main.module.css'
-import garam1 from '../assets/img/garam-1.jpg'
+import petambak from '../assets/img/petambak.jpg'
 import React from 'react'
 
 
@@ -9,10 +9,10 @@ function Main() {
 
 return (
   <div>
-    <Wrap justify='center '>
-    <Box maxW='1400px' display='flex' w='100%' minH='50vh' maxH='80vh' p={8} className={main.bgcarousel}>
+    <Wrap justify='center'>
+    <Box maxW='1400px' display='flex' minW='30vh' w='100%' minH='50vh' maxH='80vh' py={8} pl={8}  className={main.bgcarousel}>
       <HStack>
-      <Box w='70%'>   
+      <Box w='60%' pr='10%'>   
             <Heading size='3xl' className={main.headingcarousel}>
               Kugar Tirta Bahari
             </Heading> 
@@ -25,15 +25,19 @@ return (
             </Text>
             </Heading>
       </Box>
-      <Wrap w='30%'>
+      <Wrap w='40%' justify='end' align='end'>
         <WrapItem>
             <Image
               ml={5}
-              width='100px'
-              boxSize='300px'
+              // width='100px'
+              minH='50vh'
+              maxH='80vh'
+              // maxBlockSize='500px'
+              boxSize='500px'
               objectFit='cover'
-              src={garam1}
+              src={petambak}
               alt='img'
+              className={main.imgMain}
             />
         </WrapItem>
       </Wrap>  

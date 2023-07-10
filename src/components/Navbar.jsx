@@ -1,15 +1,13 @@
 import { Flex, Wrap, WrapItem, Image, IconButton, Menu, MenuList,MenuButton, MenuItem, Link, Box} from '@chakra-ui/react';
 import { AiFillSetting, AiOutlineUser, AiOutlineProfile, AiOutlineLogout } from "react-icons/ai";
 import logo from '../assets/img/beach.png';
-import navbar from '../assets/css/navbar.module.css';
+import navbar from '../assets/css/navbar.module.css'
 import React from 'react';
 
 function Navbar() {
 return (
 <div>
-    {/* <VStack p={5}> */}
-        {/* <Flex> */}
-        <Wrap justify='center'>
+        <Wrap justify='center' className={navbar.bgNavbar}>
           <Wrap maxW='1400px' w='1080px' justify='space-between' align='center' p={5} fontSize='md' className={navbar.menuItem}>   
                     <Image width='45px' objectFit='cover' src={logo} alt='Logo' />
                   {/* <WrapItem>
@@ -56,9 +54,6 @@ return (
                   </WrapItem>           
           </Wrap>   
         </Wrap> 
-                
-        {/* </Flex> */}
-        {/* </VStack> */}
 </div>
 )
 }
