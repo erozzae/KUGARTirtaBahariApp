@@ -53,3 +53,14 @@
     /* border-radius: 5px; */
     /* float: left; */
 }
+
+/* Footer */
+.bgFooter {
+    background-image: linear-gradient(to right,  #698cbe , #4E5764);
+    border-radius: 10px 10px 0 0 ; 
+
+}
+
+.footerHeading {
+    color: #ffff;
+}
