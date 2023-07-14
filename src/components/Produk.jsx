@@ -29,8 +29,8 @@ function Produk() {
                 <Card maxW='sm' >
                     <CardBody>
                         <Image
-                        w='500px'
-                        h='260px'
+                        w='300px'
+                        h='200px'
                         src={garamSpa}
                         alt='img'
                         borderRadius='lg'
@@ -51,8 +51,8 @@ function Produk() {
                 <Card maxW='sm'>
                     <CardBody>
                         <Image
-                        w='500px'
-                        h='260px'
+                        w='300px'
+                        h='200px'
                         src={tunnel}
                         alt='img'
                         borderRadius='lg'
@@ -75,8 +75,8 @@ function Produk() {
                 <Card maxW='sm' >
                     <CardBody>
                         <Image
-                        w='500px'
-                        h='260px'
+                        w='300px'
+                        h='200px'
                         src={garamSpa}
                         alt='img'
                         borderRadius='lg'
@@ -97,14 +97,14 @@ function Produk() {
                 <Card maxW='sm'>
                     <CardBody>
                         <Image
-                        w='500px'
-                        h='260px'
+                        w='300px'
+                        h='200px'
                         src={tunnel}
                         alt='img'
                         borderRadius='lg'
                         />
                         <Stack mt='6' spacing='3'>
-                        <Heading size='md'>Garam Spa</Heading>
+                        <Heading size='md' className={main.headingProduk}>Garam Konsumsi</Heading>
                         <Text>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
                             pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 

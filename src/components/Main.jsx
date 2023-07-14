@@ -25,7 +25,7 @@ return (
             </Text>
             </Heading>
       </Box>
-      <Wrap w='40%' justify='end' align='end'>
+      <Wrap w='40%' justify='center' align='end'>
         <WrapItem>
             <Image
               ml={5}
@@ -33,7 +33,7 @@ return (
               minH='50vh'
               maxH='80vh'
               // maxBlockSize='500px'
-              boxSize='500px'
+              boxSize='400px'
               objectFit='cover'
               src={petambak}
               alt='img'

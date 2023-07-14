@@ -4,10 +4,10 @@
   /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
 
   /* Main */
-.bgcarousel {
-    /* background-image: linear-gradient(to right, #001A41 , #0C3067);
-    border-radius: 0 0 50px 50px; */
-}
+/* .bgcarousel {
+    background-image: linear-gradient(to right, #001A41 , #0C3067);
+    border-radius: 0 0 50px 50px;
+} */
 
 .headingcarousel {
     color: #001A41;
@@ -46,13 +46,13 @@
     /* background-image: url(../img/garam-1.jpg); */
 }
 
-.pictArtikel {
-    /* margin-right: 20px; */
-    /* height: 200px;
-    width: 400px; */
-    /* border-radius: 5px; */
-    /* float: left; */
-}
+/* .pictArtikel {
+    margin-right: 20px; 
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    float: left;
+} */
 
 /* Footer */
 .bgFooter {
@@ -63,4 +63,5 @@
 
 .footerHeading {
     color: #ffff;
+    font-size: 10px;
 }
