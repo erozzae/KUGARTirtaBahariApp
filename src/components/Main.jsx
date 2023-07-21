@@ -3,10 +3,7 @@ import main from '../assets/css/main.module.css'
 import petambak from '../assets/img/petambak.jpg'
 import React from 'react'
 
-
 function Main() {
-
-
 return (
   <div>
     <Wrap justify='center'>

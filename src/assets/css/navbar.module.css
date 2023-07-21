@@ -1,11 +1,11 @@
-  /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
 
-/* .bgNavbar {
-    background-image: linear-gradient(to right, #001A41 , #0C3067);
-} */
-
-.menuItem {
+.navItem {
     color: #001A41;
     font-weight: 600;
     /* font-family: 'Roboto', sans-serif; */
+}
+.menuItem {
+  color: #001A41;
+  font-weight: 300;
+  /* font-family: 'Roboto', sans-serif; */
 }

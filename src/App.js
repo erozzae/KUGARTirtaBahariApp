@@ -1,19 +1,15 @@
-import { Flex, VStack, Wrap, WrapItem, Box } from '@chakra-ui/react'
-import Navbar from './components/Navbar';
-import Main from './components/Main';
-import Produk from './components/Produk'
-import Artikel from './components/Artikel';
-import Footer from './components/Footer';
+import Home from "./pages/Home"
+import Users from "./pages/Users"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Navbar/>           
-      <Main/>
-      <Produk/>
-      <Artikel/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={ <Home/> } /> 
+        <Route path="/users" element={ <Users/> } /> 
+      </Routes>
+    </BrowserRouter>
   );
 }
 

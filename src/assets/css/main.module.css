@@ -37,7 +37,7 @@
 
 /* Artikel */
 .containerArtikel {
-    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(../img/petambak2.jpg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(../img/petambak2.jpg); */
     background-repeat: no-repeat;
     max-width: 100%;
     height: 200px;
