@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // import App from "./App";
-import Home from './pages/Home'
-import UsersMgm from './pages/UsersMgm'
-import ArtikelMgm from './pages/ArtikelMgm'
-import Artikels from './pages/Artikels'
+import Home from "./pages/Home";
+import UsersMgm from "./pages/UsersMgm";
+import ArtikelMgm from "./pages/ArtikelMgm";
+import Artikels from "./pages/Artikels";
+import ArtikelsAll from "./pages/ArtikelsAll";
 import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider } from "@chakra-ui/react";
 import { createRoot } from "react-dom/client";
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/artikels/manajemen",
     element: <ArtikelMgm />,
+  },
+  {
+    path: "/artikelsAll",
+    element: <ArtikelsAll />,
   },
   {
     path: "/artikel",

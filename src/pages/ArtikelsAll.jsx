@@ -1,37 +1,32 @@
 import {
-  Wrap,
   Box,
+  Flex,
+  IconButton,
   Heading,
   Text,
   Image,
   HStack,
   Link,
-  IconButton,
 } from "@chakra-ui/react";
 import gula from "../assets/img/gula.jpg";
 import pahlawan from "../assets/img/pahawan.jpg";
 import petambak2 from "../assets/img/petambak2.jpg";
+import { AiOutlineRollback } from "react-icons/ai";
+import { Link as ReachLink } from "react-router-dom";
 import main from "../assets/css/main.module.css";
 import React from "react";
-import { Link as ReachLink } from "react-router-dom";
-import { AiOutlineFastForward } from "react-icons/ai";
 
-function Artikel() {
+function ArtikelsAll() {
   return (
-    <>
-      <Box display="flex" justifyContent="center">
-        <Image
-          // justifyItems="center"
-          src={petambak2}
-          maxW="890px"
-          w="500px"
-          my={8}
-          className={main.containerArtikel}
-        ></Image>
-      </Box>
-      <Wrap justify="center" my={5}>
-        <Heading>Artikel</Heading>
-      </Wrap>
+    <Box>
+      <Flex justify="space-around" align="center" my={5}>
+        <IconButton
+          as={ReachLink}
+          to="/"
+          icon={<AiOutlineRollback />}
+        ></IconButton>
+        <Heading>Semua Artikel</Heading>
+      </Flex>
       <Box px={5}>
         <Box mb={3}>
           <HStack justify="center">
@@ -85,21 +80,61 @@ function Artikel() {
             </Box>
           </HStack>
         </Box>
-        <Box>
+        <Box mb={3}>
           <HStack justify="center">
-            <IconButton
-              as={ReachLink}
-              variant="outline"
-              colorScheme="teal"
-              aria-label="all"
-              icon={<AiOutlineFastForward />}
-              to='/artikelsAll'
-            />
+            <Box>
+              <Image
+                //  boxSize='500px'
+                w="200px"
+                h="100px"
+                objectFit="cover"
+                src={gula}
+                alt="Img"
+                borderRadius="lg"
+                className={main.pictArtikel}
+              ></Image>
+            </Box>
+            <Box>
+              <Heading pl={5} size="md" className={main.headingProduk}>
+                <Link>Kuliner Kesukaan Der Führer</Link>
+              </Heading>
+              <Text pl={5}>
+                Penggemar daging dan hidangan tradisional Austria, Hitler
+                berubah jadi vegetarian jelang perang.{" "}
+              </Text>
+            </Box>
+          </HStack>
+        </Box>
+        <Box mb={3}>
+          <HStack justify="center">
+            <Box>
+              <Image
+                //  boxSize='500px'
+                w="200px"
+                h="100px"
+                objectFit="cover"
+                src={pahlawan}
+                alt="Img"
+                borderRadius="lg"
+                className={main.pictArtikel}
+              ></Image>
+            </Box>
+            <Box>
+              <Heading pl={5} size="md" className={main.headingProduk}>
+                <Link as={ReachLink} to="/artikel">
+                  Kuliner Kesukaan Der Führer
+                </Link>
+              </Heading>
+              <Text pl={5}>
+                Penggemar daging dan hidangan tradisional Austria, Hitler
+                berubah jadi vegetarian jelang perang.{" "}
+              </Text>
+            </Box>
           </HStack>
         </Box>
       </Box>
-    </>
+    </Box>
   );
 }
 
-export default Artikel;
+export default ArtikelsAll;

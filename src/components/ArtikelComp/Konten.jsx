@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Center,
-  Flex,
-  Wrap,
-  WrapItem,
-  Heading,
-  IconButton,
-} from "@chakra-ui/react";
+import { Box, Flex, Heading, IconButton } from "@chakra-ui/react";
 import art from "../../assets/css/artikel.module.css";
 import { AiOutlineRollback } from "react-icons/ai";
 import { Link as ReachLink } from "react-router-dom";
