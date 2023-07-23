@@ -8,13 +8,13 @@ import garamSpa from '../assets/img/spa.jpg'
 import React from 'react'
 
 function Produk() {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
+    // const settings = {
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    //   };
 
   return (
     <>
@@ -23,7 +23,7 @@ function Produk() {
             Produk
         </Heading>
     </Wrap>
-      <Slider {...settings}>
+      {/* <Slider {...settings}> */}
         <Wrap justify='center'>
             <WrapItem>
                 <Card maxW='sm' >
@@ -70,7 +70,7 @@ function Produk() {
                 </Card>
             </WrapItem>
         </Wrap>
-        <Wrap justify='center'>
+        {/* <Wrap justify='center'>
             <WrapItem>
                 <Card maxW='sm' >
                     <CardBody>
@@ -115,8 +115,8 @@ function Produk() {
                     <Divider />
                 </Card>
             </WrapItem>
-        </Wrap>
-     </Slider>
+        </Wrap> */}
+     {/* </Slider> */}
     </>
 
   )

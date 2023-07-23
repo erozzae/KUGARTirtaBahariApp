@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Center,Wrap, Heading } from "@chakra-ui/react";
+import { Box, Center, Wrap, Heading } from "@chakra-ui/react";
 
 function Maps() {
   return (
@@ -10,7 +10,7 @@ function Maps() {
       <Center px={8}>
         {/* <AspectRatio ratio={16 / 9} maxHeight="30%"> */}
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.952912260219!2d3.375295414770757!3d6.5276316452784755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1567723392506!5m2!1sen!2sng"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3949.653961703002!2d110.565996!3d-8.136666!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7bbaf4d43a504d%3A0xec67e4a2048c2008!2sPantai%20Sepanjang!5e0!3m2!1sid!2sus!4v1690116788284!5m2!1sid!2sus"
           width="600px"
           height="400px"
         />

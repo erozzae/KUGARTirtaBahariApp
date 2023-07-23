@@ -12,8 +12,6 @@ import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
 } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -34,7 +32,7 @@ const router = createBrowserRouter([
     element: <ArtikelsAll />,
   },
   {
-    path: "/artikel",
+    path: "/artikel/:id",
     element: <Artikels />,
     // children: [
     //   {
