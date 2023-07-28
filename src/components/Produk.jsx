@@ -1,11 +1,10 @@
-import { Card, CardBody, CardFooter, Button, ButtonGroup, Heading, Text, Image, Stack, Divider, Wrap, WrapItem } from '@chakra-ui/react'
-import "slick-carousel/slick/slick.css"; 
+import { Card, CardBody, Divider, Heading, Image, Stack, Text, Wrap, WrapItem } from '@chakra-ui/react';
+import React from 'react';
 import "slick-carousel/slick/slick-theme.css";
-import main from '../assets/css/main.module.css'
-import Slider from "react-slick"
-import tunnel from '../assets/img/tunnel.jpeg'
-import garamSpa from '../assets/img/spa.jpg'
-import React from 'react'
+import "slick-carousel/slick/slick.css";
+import main from '../assets/css/main.module.css';
+import garamSpa from '../assets/img/spa.jpg';
+import tunnel from '../assets/img/tunnel.jpeg';
 
 function Produk() {
     // const settings = {

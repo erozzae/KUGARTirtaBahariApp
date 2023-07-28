@@ -1,5 +1,5 @@
+import { Box, Center, Heading, Wrap } from "@chakra-ui/react";
 import React from "react";
-import { Box, Center, Wrap, Heading } from "@chakra-ui/react";
 
 function Maps() {
   return (

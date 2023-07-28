@@ -1,5 +1,5 @@
 import React from "react";
-import Konten from '../components/ArtikelComp/Konten'
+import Konten from '../components/ArtikelComp/Konten';
 function Artikels() {
   return (
     <div>

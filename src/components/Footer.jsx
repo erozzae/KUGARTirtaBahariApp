@@ -1,22 +1,19 @@
 import {
-  Wrap,
-  WrapItem,
-  Center,
-  Text,
-  Heading,
-  Link,
   Box,
   Flex,
+  Heading,
+  Link,
+  Text
 } from "@chakra-ui/react";
-import main from "../assets/css/main.module.css";
-import {
-  AiOutlineWhatsApp,
-  AiOutlineMail,
-  AiOutlineInstagram,
-  AiFillTwitterCircle,
-  AiFillFacebook,
-} from "react-icons/ai";
 import React from "react";
+import {
+  AiFillFacebook,
+  AiFillTwitterCircle,
+  AiOutlineInstagram,
+  AiOutlineMail,
+  AiOutlineWhatsApp,
+} from "react-icons/ai";
+import main from "../assets/css/main.module.css";
 
 function footer() {
   return (

@@ -1,10 +1,8 @@
-import React from "react";
 import { Box, Flex, Heading, IconButton } from "@chakra-ui/react";
-import art from "../../assets/css/artikel.module.css";
-import { AiOutlineRollback } from "react-icons/ai";
-import { Link as ReachLink } from "react-router-dom";
 import IframeResizer from "iframe-resizer-react";
-import { useParams } from "react-router-dom";
+import React from "react";
+import { AiOutlineRollback } from "react-icons/ai";
+import { Link as ReachLink, useParams } from "react-router-dom";
 
 function Konten() {
   let data = [

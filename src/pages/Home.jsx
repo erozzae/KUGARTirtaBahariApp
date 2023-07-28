@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar";
-import Main from "../components/Main";
-import Produk from "../components/Produk";
+import React from "react";
 import Artikel from "../components/Artikel";
 import Footer from "../components/Footer";
+import Main from "../components/Main";
+import Maps from "../components/Maps";
+import Navbar from "../components/Navbar";
+import Produk from "../components/Produk";
 import ProfilVid from "../components/ProfilVid";
-import Maps from "../components/Maps"
-import React from "react";
 
 function Home() {
   return (

@@ -1,15 +1,15 @@
 import {
   Box,
-  Heading,
-  Text,
-  Image,
   HStack,
+  Heading,
+  Image,
+  Text,
   Wrap,
   WrapItem,
 } from "@chakra-ui/react";
+import React from "react";
 import main from "../assets/css/main.module.css";
 import petambak from "../assets/img/petambak.jpg";
-import React from "react";
 
 function Main() {
   let mainContent = (

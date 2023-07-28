@@ -1,20 +1,20 @@
 import {
-  Wrap,
   Box,
-  Heading,
-  Text,
-  Image,
   HStack,
-  Link,
+  Heading,
   IconButton,
+  Image,
+  Link,
+  Text,
+  Wrap,
 } from "@chakra-ui/react";
+import React from "react";
+import { AiOutlineFastForward } from "react-icons/ai";
+import { Link as ReachLink } from "react-router-dom";
+import main from "../assets/css/main.module.css";
 import gula from "../assets/img/gula.jpg";
 import pahlawan from "../assets/img/pahawan.jpg";
 import petambak2 from "../assets/img/petambak2.jpg";
-import main from "../assets/css/main.module.css";
-import React from "react";
-import { Link as ReachLink } from "react-router-dom";
-import { AiOutlineFastForward } from "react-icons/ai";
 
 function Artikel() {
   return (

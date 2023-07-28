@@ -1,7 +1,6 @@
-import { Heading } from "@chakra-ui/react";
-import { Wrap, WrapItem, Box } from "@chakra-ui/react";
-import TableUsers from "../components/UserComp/TableUsers";
+import { Box } from "@chakra-ui/react";
 import React from "react";
+import TableUsers from "../components/UserComp/TableUsers";
 
 function Users() {
   return (

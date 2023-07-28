@@ -1,18 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // import App from "./App";
-import Home from "./pages/Home";
-import UsersMgm from "./pages/UsersMgm";
-import ArtikelMgm from "./pages/ArtikelMgm";
-import Artikels from "./pages/Artikels";
-import ArtikelsAll from "./pages/ArtikelsAll";
-import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider } from "@chakra-ui/react";
-import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import ArtikelMgm from "./pages/ArtikelMgm";
+import Artikels from "./pages/Artikels";
+import ArtikelsAll from "./pages/ArtikelsAll";
+import Home from "./pages/Home";
+import UsersMgm from "./pages/UsersMgm";
+import reportWebVitals from "./reportWebVitals";
 
 const router = createBrowserRouter([
   {

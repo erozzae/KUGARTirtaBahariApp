@@ -1,28 +1,20 @@
 import {
-  Flex,
-  Wrap,
-  WrapItem,
-  Image,
-  IconButton,
-  Menu,
-  MenuList,
-  MenuButton,
-  MenuItem,
   Box,
+  Image,
   Link,
+  Wrap,
+  WrapItem
 } from "@chakra-ui/react";
-import {
-  AiFillSetting,
-  AiOutlineUser,
-  AiOutlineProfile,
-  AiOutlineLogout,
-} from "react-icons/ai";
-import logo from "../assets/img/beach.png";
-import navbar from "../assets/css/navbar.module.css";
-import React from "react";
+import React, { useRef } from "react";
 import { Link as ReachLink } from "react-router-dom";
+import navbar from "../assets/css/navbar.module.css";
+import logo from "../assets/img/beach.png";
 
 function Navbar() {
+  const linkRef = useRef(null);
+  const goto = (ref) =>{
+
+  }
   return (
     <div>
       <Wrap justify="center" className={navbar.bgNavbar}>
@@ -52,7 +44,7 @@ function Navbar() {
           <WrapItem>
             <Link as={ReachLink}>Narahubung</Link>
           </WrapItem>
-          <WrapItem>
+          {/* <WrapItem>
             <Menu>
               <MenuButton
                 as={IconButton}
@@ -70,7 +62,7 @@ function Navbar() {
                 <MenuItem as={ReachLink} icon={<AiOutlineLogout />} className={navbar.menuItem}>Logout</MenuItem>
               </MenuList>
             </Menu>
-          </WrapItem>
+          </WrapItem> */}
         </Wrap>
       </Wrap>
     </div>

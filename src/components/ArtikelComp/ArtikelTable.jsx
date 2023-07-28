@@ -1,26 +1,25 @@
 import {
-    Table,
-    Thead,
-    Tbody,
-    Tfoot,
-    Tr,
-    Th,
-    Td,
-    TableCaption,
-    TableContainer,
-    Flex,
-    Heading,
-    IconButton,
-    Wrap,
-    WrapItem,
-    HStack,
-    Box,
-  } from "@chakra-ui/react";
-  import { AiFillDelete, AiFillEdit, AiOutlineRollback } from "react-icons/ai";
-  import users from "../../assets/css/users.module.css";
-  import React from "react";
-  import { Link as ReachLink } from "react-router-dom";
-  import Navbar from "../Navbar";
+  Box,
+  Flex,
+  HStack,
+  Heading,
+  IconButton,
+  Table,
+  TableCaption,
+  TableContainer,
+  Tbody,
+  Td,
+  Tfoot,
+  Th,
+  Thead,
+  Tr,
+  Wrap,
+  WrapItem,
+} from "@chakra-ui/react";
+import React from "react";
+import { AiFillDelete, AiFillEdit, AiOutlineRollback } from "react-icons/ai";
+import { Link as ReachLink } from "react-router-dom";
+import users from "../../assets/css/users.module.css";
   
   function ArtikelTable() {
     return (

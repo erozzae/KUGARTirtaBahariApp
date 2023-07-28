@@ -1,21 +1,20 @@
 import {
   Box,
   Flex,
-  IconButton,
-  Heading,
-  Text,
-  Image,
   HStack,
+  Heading,
+  IconButton,
+  Image,
   Link,
+  Text,
 } from "@chakra-ui/react";
-import gula from "../assets/img/gula.jpg";
-import pahlawan from "../assets/img/pahawan.jpg";
-import Footer from "../components/Footer";
-import petambak2 from "../assets/img/petambak2.jpg";
+import React from "react";
 import { AiOutlineRollback } from "react-icons/ai";
 import { Link as ReachLink } from "react-router-dom";
 import main from "../assets/css/main.module.css";
-import React from "react";
+import pahlawan from "../assets/img/pahawan.jpg";
+import petambak2 from "../assets/img/petambak2.jpg";
+import Footer from "../components/Footer";
 
 function ArtikelsAll() {
   let data = [
