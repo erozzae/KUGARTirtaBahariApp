@@ -12,7 +12,7 @@ function Konten() {
       // img: petambak2,
       contSnpt:
         " blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa",
-      pdf: "https://drive.google.com/file/d/1WRORtTrhhqk7-lS9DuYE0kYBPsw-tvw3/preview",
+      pdf: "https://drive.google.com/file/d/1-x8nblK7n3etLC_D3R1nc2ZkTcpBAOn3/preview",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ function Konten() {
       pdf: "https://drive.google.com/file/d/1zbtpSsxMTG--RBmISe-JGrqHLL5-zC6N/preview",
     },
   ];
-  const  Contentid  = useParams();
+  const Contentid = useParams();
   const resultId = Contentid.id;
   const result = data.find(({ id }) => id == resultId);
   console.log(result);
@@ -36,6 +36,17 @@ function Konten() {
           icon={<AiOutlineRollback />}
         ></IconButton>
         <Heading>Artikel</Heading>
+      </Flex>
+      <Flex justify="center" mb={5}>
+        <Box  p={5}>
+          <Heading size='lg' pb={5}>CEEK</Heading>
+          <text>
+            Garam merupakan suatu komoditas strategis karena potensi
+            penggunaannya yang sangat luas, mulai dari sektor konsumsi hingga
+            industri yang sendirinya meliputi berbagai bidang, seperti farmasi,
+            kosmetik, dan pangan.
+          </text>
+        </Box>
       </Flex>
       <IframeResizer
         log

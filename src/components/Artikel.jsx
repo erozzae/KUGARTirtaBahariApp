@@ -15,6 +15,7 @@ import main from "../assets/css/main.module.css";
 import gula from "../assets/img/gula.jpg";
 import pahlawan from "../assets/img/pahawan.jpg";
 import petambak2 from "../assets/img/petambak2.jpg";
+import materiKebijakan from "../assets/img/materi-naskah-kebijakan.jpeg";
 
 function Artikel() {
   return (
@@ -47,9 +48,12 @@ function Artikel() {
                 className={main.pictArtikel}
               ></Image>
             </Box>
-            <Box>
-              <Heading pl={5} size="md" className={main.headingProduk}>
-                <Link>Kuliner Kesukaan Der Führer</Link>
+            <Box w="55%">
+              <Heading pl={5} size={['sm','md']} className={main.headingProduk}>
+                <Link>
+                  STRATEGI PENGEMBANGAN POTENSI TAMBAK GARAM KOPERASI PRODUSEN
+                  GARAM TIRTA BAHARI
+                </Link>
               </Heading>
               <Text pl={5}>
                 Penggemar daging dan hidangan tradisional Austria, Hitler
@@ -66,14 +70,14 @@ function Artikel() {
                 w="200px"
                 h="100px"
                 objectFit="cover"
-                src={pahlawan}
+                src={materiKebijakan}
                 alt="Img"
                 borderRadius="lg"
                 className={main.pictArtikel}
               ></Image>
             </Box>
-            <Box>
-              <Heading pl={5} size="md" className={main.headingProduk}>
+            <Box w="55%">
+              <Heading pl={5} size={['sm','md']} className={main.headingProduk}>
                 <Link as={ReachLink} to="/artikel">
                   Kuliner Kesukaan Der Führer
                 </Link>
@@ -93,7 +97,7 @@ function Artikel() {
               colorScheme="teal"
               aria-label="all"
               icon={<AiOutlineFastForward />}
-              to='/artikelsAll'
+              to="/artikelsAll"
             />
           </HStack>
         </Box>

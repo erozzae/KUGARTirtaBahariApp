@@ -14,21 +14,23 @@ import { Link as ReachLink } from "react-router-dom";
 import main from "../assets/css/main.module.css";
 import pahlawan from "../assets/img/pahawan.jpg";
 import petambak2 from "../assets/img/petambak2.jpg";
+import materiKebijakan from "../assets/img/materi-naskah-kebijakan.jpeg";
 import Footer from "../components/Footer";
 
 function ArtikelsAll() {
   let data = [
     {
       id: 1,
-      title: "Kuliner Kesukaan Der Führer1",
-      img: petambak2,
+      title:
+        "STRATEGI PENGEMBANGAN POTENSI TAMBAK GARAM KOPERASI PRODUSEN GARAM TIRTA BAHARI",
+      img: materiKebijakan,
       contSnpt:
         " blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa",
     },
     {
       id: 2,
       title: "Judul dummy",
-      img: pahlawan,
+      img: petambak2,
       contSnpt:
         " blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa",
     },
@@ -54,7 +56,7 @@ function ArtikelsAll() {
                     //  boxSize='500px'
                     w="200px"
                     h="100px"
-                    objectFit="cover"
+                    objectFit="contain"
                     src={item.img}
                     alt="Img"
                     borderRadius="lg"
@@ -68,8 +70,6 @@ function ArtikelsAll() {
                     </Link>
                   </Heading>
                   <Text pl={5} fontSize={["sm", "md"]}>
-                    {/* Penggemar daging dan hidangan tradisional Austria, Hitler
-                    berubah jadi vegetarian jelang perang.{" "} */}
                     {item.contSnpt}
                   </Text>
                 </Box>
@@ -77,112 +77,14 @@ function ArtikelsAll() {
             </Box>
           );
         })}
-        {/* <Box mb={3}>
-          <HStack justify="center">
-            <Box>
-              <Image
-                //  boxSize='500px'
-                w="200px"
-                h="100px"
-                objectFit="cover"
-                src={gula}
-                alt="Img"
-                borderRadius="lg"
-                className={main.pictArtikel}
-              ></Image>
-            </Box>
-            <Box>
-              <Heading pl={5} size="md" className={main.headingProduk}>
-                <Link>Kuliner Kesukaan Der Führer</Link>
-              </Heading>
-              <Text pl={5}>
-                Penggemar daging dan hidangan tradisional Austria, Hitler
-                berubah jadi vegetarian jelang perang.{" "}
-              </Text>
-            </Box>
-          </HStack>
-        </Box> */}
-
-        {/* <Box mb={3}>
-          <HStack justify="center">
-            <Box>
-              <Image
-                //  boxSize='500px'
-                w="200px"
-                h="100px"
-                objectFit="cover"
-                src={pahlawan}
-                alt="Img"
-                borderRadius="lg"
-                className={main.pictArtikel}
-              ></Image>
-            </Box>
-            <Box>
-              <Heading pl={5} size="md" className={main.headingProduk}>
-                <Link as={ReachLink} to="/artikel">
-                  Kuliner Kesukaan Der Führer
-                </Link>
-              </Heading>
-              <Text pl={5}>
-                Penggemar daging dan hidangan tradisional Austria, Hitler
-                berubah jadi vegetarian jelang perang.{" "}
-              </Text>
-            </Box>
-          </HStack>
-        </Box>
-        <Box mb={3}>
-          <HStack justify="center">
-            <Box>
-              <Image
-                w="200px"
-                h="100px"
-                objectFit="cover"
-                src={gula}
-                alt="Img"
-                borderRadius="lg"
-                className={main.pictArtikel}
-              ></Image>
-            </Box>
-            <Box>
-              <Heading pl={5} size="md" className={main.headingProduk}>
-                <Link>Kuliner Kesukaan Der Führer</Link>
-              </Heading>
-              <Text pl={5}>
-                Penggemar daging dan hidangan tradisional Austria, Hitler
-                berubah jadi vegetarian jelang perang.{" "}
-              </Text>
-            </Box>
-          </HStack>
-        </Box>
-        <Box mb={3}>
-          <HStack justify="center">
-            <Box>
-              <Image
-                //  boxSize='500px'
-                w="200px"
-                h="100px"
-                objectFit="cover"
-                src={pahlawan}
-                alt="Img"
-                borderRadius="lg"
-                className={main.pictArtikel}
-              ></Image>
-            </Box>
-            <Box>
-              <Heading pl={5} size="md" className={main.headingProduk}>
-                <Link as={ReachLink} to="/artikel">
-                  Kuliner Kesukaan Der Führer
-                </Link>
-              </Heading>
-              <Text pl={5}>
-                Penggemar daging dan hidangan tradisional Austria, Hitler
-                berubah jadi vegetarian jelang perang.{" "}
-              </Text>
-            </Box>
-          </HStack>
-        </Box> */}
       </Box>
-      <Box position="fixed" bottom={0} width="100%">
+      <Box
+        position="fixed"
+        left={0}
+        bottom={0}
+        width={["0%", "100%"]}
+        // h={["0%", "40%", "auto"]}
+      >
         <Footer />
       </Box>
     </Box>

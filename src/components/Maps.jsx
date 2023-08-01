@@ -3,7 +3,7 @@ import React from "react";
 
 function Maps() {
   return (
-    <Box mt={10}>
+    <Box mt={10} >
       <Wrap justify="center" my={5}>
         <Heading>Lokasi</Heading>
       </Wrap>
