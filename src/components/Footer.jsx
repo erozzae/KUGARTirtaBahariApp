@@ -1,10 +1,4 @@
-import {
-  Box,
-  Flex,
-  Heading,
-  Link,
-  Text
-} from "@chakra-ui/react";
+import { Box, Flex, Heading, Link, Text } from "@chakra-ui/react";
 import React from "react";
 import {
   AiFillFacebook,
@@ -26,6 +20,7 @@ function footer() {
       alignItems="flex-start"
       flexWrap="wrap"
       width="100%"
+      h={["0%", "auto"]}
       // height="170px"
       className={main.bgFooter}
     >
