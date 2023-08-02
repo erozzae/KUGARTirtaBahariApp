@@ -16,11 +16,10 @@ import React from "react";
 import { AiOutlineRollback } from "react-icons/ai";
 import { Link as ReachLink } from "react-router-dom";
 import main from "../assets/css/main.module.css";
-import pahlawan from "../assets/img/pahawan.jpg";
 import petambak2 from "../assets/img/petambak2.jpg";
 import materiKebijakan from "../assets/img/materi-naskah-kebijakan.jpeg";
 import Footer from "../components/Footer";
-import { FlatTree } from "framer-motion";
+import bg from "../assets/img/bgPattern3.jpg";
 
 function ArtikelsAll() {
   let data = [
@@ -50,7 +49,11 @@ function ArtikelsAll() {
   ];
 
   return (
-    <Box>
+    <Box
+      backgroundImage={bg}
+      backgroundPosition="center"
+      backgroundRepeat="repeat"
+    >
       <Flex justify="space-around" align="center" mt={5} mb="8vh">
         <IconButton
           as={ReachLink}
