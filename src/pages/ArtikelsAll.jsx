@@ -8,43 +8,35 @@ import {
   Image,
   Link,
   Text,
-  VStack,
-  Wrap,
-  WrapItem,
 } from "@chakra-ui/react";
 import React from "react";
 import { AiOutlineRollback } from "react-icons/ai";
 import { Link as ReachLink } from "react-router-dom";
 import main from "../assets/css/main.module.css";
-import petambak2 from "../assets/img/petambak2.jpg";
+import bg from "../assets/img/bgPattern.jpg";
 import materiKebijakan from "../assets/img/materi-naskah-kebijakan.jpeg";
+import grSpa from "../assets/img/AnalisisGaramSpa.jpeg";
 import Footer from "../components/Footer";
-import bg from "../assets/img/bgPattern3.jpg";
 
 function ArtikelsAll() {
   let data = [
     {
       id: 1,
       title:
-        "STRATEGI PENGEMBANGAN POTENSI TAMBAK GARAM KOPERASI PRODUSEN GARAM TIRTA BAHARI",
-      img: materiKebijakan,
+        "Analisis Garam Spa dan Variannya",
+      img: grSpa,
       contSnpt:
         " blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa",
+      pdf: "https://drive.google.com/file/d/10AJHdfDDf0NJvh31LYK2yu5yVqRdQRpF/preview",
     },
     {
       id: 2,
-      title: "Judul dummy",
-      img: petambak2,
-      contSnpt:
-        " blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa",
-    },
-    {
-      id: 3,
       title:
         "STRATEGI PENGEMBANGAN POTENSI TAMBAK GARAM KOPERASI PRODUSEN GARAM TIRTA BAHARI",
       img: materiKebijakan,
       contSnpt:
-        " blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa",
+        " Secara spesifik, garam merupakan komoditas pertanian yang memiliki peran penting dalam kehidupan sehari-hari masyarakat. Kebutuhan garam di Indonesia dari tahun ke tahun semakin meningkat seiring dengan bertambahnya penduduk dan berkembangnya industri di Indonesia.",
+        pdf:"https://drive.google.com/file/d/1-x8nblK7n3etLC_D3R1nc2ZkTcpBAOn3/preview"
     },
   ];
 
@@ -53,8 +45,10 @@ function ArtikelsAll() {
       backgroundImage={bg}
       backgroundPosition="center"
       backgroundRepeat="repeat"
+      w="100%"
+      h="100%"
     >
-      <Flex justify="space-around" align="center" mt={5} mb="8vh">
+      <Flex justify="space-around" align="center" pt={5} mb="8vh">
         <IconButton
           as={ReachLink}
           to="/"
@@ -66,31 +60,33 @@ function ArtikelsAll() {
         <Box px={5}>
           {data.map((item, index) => {
             return (
-              <Box mb={5}>
-                <HStack justify="center" align="flex-start">
-                  <Box>
-                    <Image
-                      //  boxSize='500px'
-                      w="200px"
-                      h="100px"
-                      objectFit="contain"
-                      src={item.img}
-                      alt="Img"
-                      borderRadius="lg"
-                      className={main.pictArtikel}
-                    ></Image>
-                  </Box>
-                  <Box maxW={["60%"]}>
-                    <Heading pl={5} size="md" className={main.headingProduk}>
-                      <Link as={ReachLink} to={`/artikel/${item.id}`}>
-                        {item.title}
-                      </Link>
-                    </Heading>
-                    <Text pl={5} fontSize={["sm", "md"]}>
-                      {item.contSnpt}
-                    </Text>
-                  </Box>
-                </HStack>
+              <Box mb={1}>
+                <Card p={5}>
+                  <HStack justify="center" align="flex-start">
+                    <Box>
+                      <Image
+                        //  boxSize='500px'
+                        w="200px"
+                        h="100px"
+                        objectFit="contain"
+                        src={item.img}
+                        alt="Img"
+                        borderRadius="lg"
+                        className={main.pictArtikel}
+                      ></Image>
+                    </Box>
+                    <Box maxW={["60%"]}>
+                      <Heading pl={5} size="md" className={main.headingProduk}>
+                        <Link as={ReachLink} to={`/artikel/${item.id}`}>
+                          {item.title}
+                        </Link>
+                      </Heading>
+                      <Text pl={5} fontSize={["sm", "md"]}>
+                        {item.contSnpt}
+                      </Text>
+                    </Box>
+                  </HStack>
+                </Card>
               </Box>
             );
           })}

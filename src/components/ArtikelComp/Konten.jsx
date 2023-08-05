@@ -1,6 +1,8 @@
 import { Box, Flex, Heading, IconButton } from "@chakra-ui/react";
 import IframeResizer from "iframe-resizer-react";
 import React from "react";
+import materiKebijakan from "../../assets/img/materi-naskah-kebijakan.jpeg";
+import grSpa from "../../assets/img/spa.jpg";
 import { AiOutlineRollback } from "react-icons/ai";
 import { Link as ReachLink, useParams } from "react-router-dom";
 
@@ -8,19 +10,20 @@ function Konten() {
   let data = [
     {
       id: 1,
-      title: "Kuliner Kesukaan Der Führer1",
-      // img: petambak2,
+      title: "Analisis Garam Spa dan Variannya",
+      img: grSpa,
       contSnpt:
         " blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa",
-      pdf: "https://drive.google.com/file/d/1-x8nblK7n3etLC_D3R1nc2ZkTcpBAOn3/preview",
+      pdf: "https://drive.google.com/file/d/10AJHdfDDf0NJvh31LYK2yu5yVqRdQRpF/preview",
     },
     {
       id: 2,
-      title: "Judul dummy",
-      // img: pahlawan,
+      title:
+        "STRATEGI PENGEMBANGAN POTENSI TAMBAK GARAM KOPERASI PRODUSEN GARAM TIRTA BAHARI",
+      img: materiKebijakan,
       contSnpt:
-        " blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa",
-      pdf: "https://drive.google.com/file/d/1zbtpSsxMTG--RBmISe-JGrqHLL5-zC6N/preview",
+        " Secara spesifik, garam merupakan komoditas pertanian yang memiliki peran penting dalam kehidupan sehari-hari masyarakat. Kebutuhan garam di Indonesia dari tahun ke tahun semakin meningkat seiring dengan bertambahnya penduduk dan berkembangnya industri di Indonesia.",
+      pdf: "https://drive.google.com/file/d/1-x8nblK7n3etLC_D3R1nc2ZkTcpBAOn3/preview",
     },
   ];
   const Contentid = useParams();
@@ -38,14 +41,11 @@ function Konten() {
         <Heading>Artikel</Heading>
       </Flex>
       <Flex justify="center" mb={5}>
-        <Box  p={5}>
-          <Heading size='lg' pb={5}>CEEK</Heading>
-          <text>
-            Garam merupakan suatu komoditas strategis karena potensi
-            penggunaannya yang sangat luas, mulai dari sektor konsumsi hingga
-            industri yang sendirinya meliputi berbagai bidang, seperti farmasi,
-            kosmetik, dan pangan.
-          </text>
+        <Box p={5}>
+          <Heading size={['sm','md']} pb={5}>
+            {result.title}
+          </Heading>
+          <text>{result.contSnpt}</text>
         </Box>
       </Flex>
       <IframeResizer

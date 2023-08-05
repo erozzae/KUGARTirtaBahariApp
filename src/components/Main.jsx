@@ -1,7 +1,6 @@
 import {
   Box,
   Card,
-  Center,
   HStack,
   Heading,
   Image,
@@ -14,25 +13,34 @@ import main from "../assets/css/main.module.css";
 import petambak from "../assets/img/petambak.jpg";
 
 function Main() {
+  // let data = [{
+  //   about: ""
+  // }]
   let mainContent = (
-    <Card p={5} mt={9}>
-      <Text fontSize={["sm", "sm", "sm"]} className={main.textContent}>
-        Wisata edukasi Kelompok Usaha Garam Rakyat (KUGAR) Tirta Bahari yang
-        berada di Pantai Sepanjang, Gunungkidul menawarkan konsep wisata yang
-        menggabungkan wisata edukasi mengenai produksi garam dan alam budaya
-        pantai Sepanjang. Lokasinya yang berada di provinsi Yogyakarta
-        memudahkan bagi para warga lokal maupun wisatawan untuk mengunjunginya.
-        Proses produksi garam yang memanfaatkan kearifan lokal menjadi semakin
-        menarik dengan bantuna dari para pemandu yang berpengalaman.KUGAR Tirta
-        Bahari merupakan kelompok petambak yang mengelola produksi garam di
-        Pantai Sepanjang. Pembentukan KUGAR Tirta Bahari dilatarbelakangi oleh
-        semangat untuk dapat mengembangkan usaha yang sudah berjalan guna
-        meningkatkan perekonomian anggota kelompok dan masyarakat Desa
-        Kemadang.Selain kita, siapa lagi yang mampu memanfaatkan potensi alam
-        Indonesia untuk mensejatetahkan rakyat Indonesia? Dan sekaranglah
-        waktunya!
-      </Text>
-    </Card>
+    <>
+      <Card p={5} mt={9}>
+        <Text fontSize={["sm", "sm", "sm"]} className={main.textContent}>
+          Koperasi Produsen Garam Tirta Bahari yang berada di Pantai Sepanjang,
+          Gunungkidul menawarkan konsep wisata yang menggabungkan wisata edukasi
+          mengenai produksi garam dan alam budaya pantai Sepanjang. Lokasinya
+          yang berada di provinsi Yogyakarta memudahkan bagi para warga lokal
+          maupun wisatawan untuk mengunjunginya. Proses produksi garam yang
+          memanfaatkan kearifan lokal menjadi semakin menarik dengan bantuna
+          dari para pemandu yang berpengalaman.
+        </Text>
+        <Text mt={3} fontSize={["sm", "sm", "sm"]} className={main.textContent}>
+          Koperasi Produsen Garam Tirta Bahari merupakan kelompok petambak yang
+          mengelola produksi garam di Pantai Sepanjang. Pembentukan KUGAR Tirta
+          Bahari dilatarbelakangi oleh semangat untuk dapat mengembangkan usaha
+          yang sudah berjalan guna meningkatkan perekonomian anggota kelompok
+          dan masyarakat Desa Kemadang.
+        </Text>
+        <Text mt={3} fontSize={["sm", "sm", "sm"]} className={main.textContent}>
+          Selain kita, siapa lagi yang mampu memanfaatkan potensi alam Indonesia
+          untuk mensejatetahkan rakyat Indonesia? Dan sekaranglah waktunya!
+        </Text>
+      </Card>
+    </>
   );
 
   let title = (
@@ -42,7 +50,7 @@ function Main() {
       textAlign="center"
       letterSpacing={2}
     >
-      Koperasi Produsen Tirta Bahari
+      Koperasi Produsen Garam Tirta Bahari
     </Heading>
   );
 

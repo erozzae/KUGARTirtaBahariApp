@@ -6,7 +6,7 @@ import Maps from "../components/Maps";
 import Navbar from "../components/Navbar";
 import Produk from "../components/Produk";
 import ProfilVid from "../components/ProfilVid";
-import bg from "../assets/img/bgPattern3.jpg";
+import bg from "../assets/img/bgPattern.jpg";
 import { Box } from "@chakra-ui/react";
 
 function Home() {

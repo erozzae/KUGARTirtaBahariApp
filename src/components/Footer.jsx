@@ -36,7 +36,7 @@ function footer() {
               <Link href="https://api.whatsapp.com/send/?phone=6285293170444&text&type=phone_number&app_absent=0">
                 <AiOutlineMail size={25} color="white" />
               </Link>
-              <Text className={main.footerHeading}>Kurga Tirta Bahari</Text>
+              <Text className={main.footerHeading}>Koperasi Produsen Garam Tirta Bahari</Text>
             </Box>
             <Box display="flex" flexDirection="row" gap="4px">
               <Link href="https://api.whatsapp.com/send/?phone=6285293170444&text&type=phone_number&app_absent=0">
