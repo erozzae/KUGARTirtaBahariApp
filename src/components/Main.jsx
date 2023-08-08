@@ -25,19 +25,19 @@ function Main() {
           mengenai produksi garam dan alam budaya pantai Sepanjang. Lokasinya
           yang berada di provinsi Yogyakarta memudahkan bagi para warga lokal
           maupun wisatawan untuk mengunjunginya. Proses produksi garam yang
-          memanfaatkan kearifan lokal menjadi semakin menarik dengan bantuna
+          memanfaatkan kearifan lokal menjadi semakin menarik dengan bantuan
           dari para pemandu yang berpengalaman.
         </Text>
         <Text mt={3} fontSize={["sm", "sm", "sm"]} className={main.textContent}>
           Koperasi Produsen Garam Tirta Bahari merupakan kelompok petambak yang
-          mengelola produksi garam di Pantai Sepanjang. Pembentukan KUGAR Tirta
-          Bahari dilatarbelakangi oleh semangat untuk dapat mengembangkan usaha
-          yang sudah berjalan guna meningkatkan perekonomian anggota kelompok
-          dan masyarakat Desa Kemadang.
+          mengelola produksi garam di Pantai Sepanjang. Pembentukan Koperasi
+          Produsen Garam Tirta Bahari dilatarbelakangi oleh semangat untuk dapat
+          mengembangkan usaha yang sudah berjalan guna meningkatkan perekonomian
+          anggota kelompok dan masyarakat Desa Kemadang.
         </Text>
         <Text mt={3} fontSize={["sm", "sm", "sm"]} className={main.textContent}>
           Selain kita, siapa lagi yang mampu memanfaatkan potensi alam Indonesia
-          untuk mensejatetahkan rakyat Indonesia? Dan sekaranglah waktunya!
+          untuk mensejahterakan rakyat Indonesia? Dan sekaranglah waktunya!
         </Text>
       </Card>
     </>

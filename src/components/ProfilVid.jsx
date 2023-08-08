@@ -12,7 +12,7 @@ function ProfilVid() {
           <iframe
             width='600px'
             height='400px'        
-            src="https://www.youtube.com/embed/QhBnZ6NPOY0"
+            src="https://www.youtube.com/embed/WOlTe475smQ"
             allowFullScreen
             alt="naruto"
             objectFit="cover"

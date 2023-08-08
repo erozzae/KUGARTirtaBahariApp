@@ -1,20 +1,10 @@
-import {
-  Box,
-  Image,
-  Link,
-  Wrap,
-  WrapItem
-} from "@chakra-ui/react";
-import React, { useRef } from "react";
+import { Box, Image, Link, Wrap, WrapItem } from "@chakra-ui/react";
+import React, { useRef, useState } from "react";
 import { Link as ReachLink } from "react-router-dom";
 import navbar from "../assets/css/navbar.module.css";
-import logo from "../assets/img/beach.png";
+import logo from "../assets/img/tanjungsari.png";
 
-function Navbar() {
-  const linkRef = useRef(null);
-  const goto = (ref) =>{
-
-  }
+function Navbar(props) {
   return (
     <div>
       <Wrap justify="center" className={navbar.bgNavbar}>
@@ -33,16 +23,24 @@ function Navbar() {
           <Box width="40%"></Box>
 
           <WrapItem>
-            <Link as={ReachLink}>Produk</Link>
+            <Link as={ReachLink} onClick={() => props.clickProduk()}>
+              Produk
+            </Link>
           </WrapItem>
           <WrapItem>
-            <Link as={ReachLink}>Artikel</Link>
+            <Link as={ReachLink} onClick={() => props.clickArtikel()}>
+              Artikel
+            </Link>
           </WrapItem>
           <WrapItem>
-            <Link as={ReachLink}>Lokasi</Link>
+            <Link as={ReachLink} onClick={() => props.clickLokasi()}>
+              Lokasi
+            </Link>
           </WrapItem>
           <WrapItem>
-            <Link as={ReachLink}>Narahubung</Link>
+            <Link as={ReachLink} onClick={() => props.clickNarahubung()}>
+              Narahubung
+            </Link>
           </WrapItem>
           {/* <WrapItem>
             <Menu>
