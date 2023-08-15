@@ -13,7 +13,8 @@ import React from "react";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import main from "../assets/css/main.module.css";
-import garamSpa from "../assets/img/spa.jpg";
+import garamKonsum from "../assets/img/garamKonsumsi.jpeg";
+import garamSpa from "../assets/img/garamSpa.jpg";
 import tunnel from "../assets/img/tunnel.jpeg";
 
 function Produk() {
@@ -47,10 +48,9 @@ function Produk() {
                   Garam Spa
                 </Heading>
                 <Text>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque nisl eros, pulvinar facilisis justo mollis, auctor
-                  consequat urna. Morbi a bibendum metus. Donec scelerisque
-                  sollicitudin enim eu venenatis.
+                  Produk garam spa Giri Sewu dibuat dari campuran antara garam
+                  laut kaya mineral yang membawa banyak manfaat bagi tubuh dan
+                  minyak esensial yang memberikan keharuman yang menenangkan
                 </Text>
               </Stack>
             </CardBody>
@@ -63,7 +63,7 @@ function Produk() {
               <Image
                 w="300px"
                 h="200px"
-                src={tunnel}
+                src={garamKonsum}
                 alt="img"
                 borderRadius="lg"
               />
@@ -77,9 +77,7 @@ function Produk() {
                   consequat urna. Morbi a bibendum metus. Donec scelerisque
                   sollicitudin enim eu venenatis.
                 </Text> */}
-                <Text>
-                Menjadi primadona                                                         
-                </Text>
+                <Text>Menjadi primadona</Text>
               </Stack>
             </CardBody>
             <Divider />

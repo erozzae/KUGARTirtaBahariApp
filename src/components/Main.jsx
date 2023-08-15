@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import main from "../assets/css/main.module.css";
-import petambak from "../assets/img/petambak.jpg";
+import tunnel from "../assets/img/tunnel11.jpg";
 
 function Main() {
   // let data = [{
@@ -81,7 +81,7 @@ function Main() {
                   maxH="80vh"
                   boxSize={["0px", "200px", "400px"]}
                   objectFit="cover"
-                  src={petambak}
+                  src={tunnel}
                   alt="img"
                   className={main.imgMain}
                 />

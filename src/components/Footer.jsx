@@ -33,7 +33,7 @@ function footer() {
           </Flex>
           <Flex justify="flex-start" flexDirection="column" gap="4px">
             <Box display="flex" flexDirection="row" gap="4px">
-              <Link href="https://api.whatsapp.com/send/?phone=6285293170444&text&type=phone_number&app_absent=0">
+              <Link href="#">
                 <AiOutlineMail size={25} color="white" />
               </Link>
               <Text className={main.footerHeading}>Koperasi Produsen Garam Tirta Bahari</Text>
@@ -59,13 +59,13 @@ function footer() {
             </Heading>
           </Flex>
           <Flex justify="flex-start" flexDirection="row" gap="4px">
-            <Link href="https://api.whatsapp.com/send/?phone=6285293170444&text&type=phone_number&app_absent=0">
+            <Link href="#">
               <AiOutlineInstagram size={25} color="white" />
             </Link>
-            <Link href="https://api.whatsapp.com/send/?phone=6285293170444&text&type=phone_number&app_absent=0">
+            <Link href="#">
               <AiFillFacebook size={25} color="white" />
             </Link>
-            <Link href="https://api.whatsapp.com/send/?phone=6285293170444&text&type=phone_number&app_absent=0">
+            <Link href="#">
               <AiFillTwitterCircle size={25} color="white" />
             </Link>
           </Flex>
