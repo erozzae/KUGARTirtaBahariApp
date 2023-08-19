@@ -22,6 +22,7 @@ import thumb5 from "../assets/img/Pelatihan Diversifikasi Garam.png";
 import thumb6 from "../assets/img/Design Opening.png";
 import thumb7 from "../assets/img/Kajian Potensi Garam Gunungkidul 2023.png";
 import thumb8 from "../assets/img/Proses Produksi Garam.jpg";
+import thumb9 from "../assets/img/katalog.png";
 import Footer from "../components/Footer";
 
 function ArtikelsAll() {
@@ -91,6 +92,14 @@ function ArtikelsAll() {
       contSnpt:
         "Koperasi Produsen Garam Tirta Bahari selaku pelaku usaha garam di Pantai Sepanjang, Gunungkidul, Daerah Istimewa Yogyakarta melakukan kegiatan proses produksi melalui beberapa tahap. Melalui artikel ini, akan dipaparkan mengenai proses produksi yang dikerjakan beserta peralatan yang dibutuhkan.",
       pdf: "https://drive.google.com/file/d/1zNOvhDU3CJ61CgLLFtLMWjTozIfxYcMJ/preview",
+    },
+    {
+      id: 9,
+      title: "Katalog Produk Garam",
+      img: thumb9,
+      contSnpt:
+        "Koperasi Produsen Garam Tirta Bahari selaku pelaku usaha garam di Pantai Sepanjang, Gunungkidul, Daerah Istimewa Yogyakarta melakukan kegiatan proses produksi melalui beberapa tahap. Melalui artikel ini, akan dipaparkan mengenai proses produksi yang dikerjakan beserta peralatan yang dibutuhkan.",
+      pdf: "https://drive.google.com/file/d/1BxzztvU7T3_-0Fz0yhlumM3u_DdHooeS/preview",
     },
   ];
 
