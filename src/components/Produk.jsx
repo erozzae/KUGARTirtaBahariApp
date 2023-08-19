@@ -77,7 +77,10 @@ function Produk() {
                   consequat urna. Morbi a bibendum metus. Donec scelerisque
                   sollicitudin enim eu venenatis.
                 </Text> */}
-                <Text>Menjadi primadona</Text>
+                <Text>
+                  Menjadi primadona oleh masyarakat tanjungsari, garam konsumsi
+                  SBS memepunyai kualitas tinggi dan berbagai manfaat
+                </Text>
               </Stack>
             </CardBody>
             <Divider />
