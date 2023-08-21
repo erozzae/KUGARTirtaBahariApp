@@ -23,6 +23,7 @@ import thumb6 from "../assets/img/Design Opening.png";
 import thumb7 from "../assets/img/Kajian Potensi Garam Gunungkidul 2023.png";
 import thumb8 from "../assets/img/Proses Produksi Garam.jpg";
 import thumb9 from "../assets/img/katalog.png";
+import thumb10 from "../assets/img/Thumbnail bittern.png";
 import Footer from "../components/Footer";
 
 function ArtikelsAll() {
@@ -100,6 +101,14 @@ function ArtikelsAll() {
       contSnpt:
         "Koperasi Produsen Garam Tirta Bahari selaku pelaku usaha garam di Pantai Sepanjang, Gunungkidul, Daerah Istimewa Yogyakarta melakukan kegiatan proses produksi melalui beberapa tahap. Melalui artikel ini, akan dipaparkan mengenai proses produksi yang dikerjakan beserta peralatan yang dibutuhkan.",
       pdf: "https://drive.google.com/file/d/1BxzztvU7T3_-0Fz0yhlumM3u_DdHooeS/preview",
+    },
+    {
+      id: 10,
+      title: "Potensi Pasar Bittern",
+      img: thumb10,
+      contSnpt:
+        "Dalam dunia yang terus berkembang, inovasi dalam pemanfaatan sumber daya alam menjadi kunci untuk menjawab tantangan global. Salah satu sumber daya yang semakin mendapatkan perhatian adalah air bittern, hasil sampingan dari industri pengolahan garam laut. Artikel ini membawa Anda untuk menjelajahi potensi pasar produk bittern. Dengan melalui analisis mendalam terhadap data demografi, pengetahuan konsumen, minat, serta berbagai aplikasi potensial, kita akan melihat peluang dalam menghadirkan produk berbasis bittern ke dalam berbagai sektor.",
+      pdf: "https://drive.google.com/file/d/1yYinUJQWTGdTpWeaxxlp1ZpcshOjVmww/preview",
     },
   ];
 
